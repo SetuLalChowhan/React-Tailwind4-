@@ -13,7 +13,7 @@
   /* color */
 
   --color-primary: green;
-  --color-bg-custom:linear-gradient(red, yellow);
+  --color-bg-custom: linear-gradient(red, yellow);
 
   /* breakpoint */
   --breakpoint-xxs: 390px;
@@ -216,7 +216,6 @@
     padding-bottom: 100px;
   }
 }
-
 
 .bg-custom {
   background: var(--color-bg-custom);
