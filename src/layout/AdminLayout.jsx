@@ -18,24 +18,24 @@ const AdminLayout = () => {
         sublink: false,
       }
       ,
-    // {
-    //   id:2,
-    //   icon:<CgProfile />,
-    //   text:"Admin Management",
-    //   path:"/dashboard/admin-list",
-    //   sublink:[
-    //     {
-    //       id:1,
-    //       text:"Admin List",
-    //       path:"/dashboard/admin-list",
-    //     },
-    //     {
-    //       id:1,
-    //       text:"Add New Admin",
-    //       path:"/dashboard/asdasd"
-    //     },
-    //   ]
-    // },
+    {
+      id:2,
+      icon:<MdDashboard />,
+      text:"Admin Management",
+      path:"/dashboard/admin-list",
+      sublink:[
+        {
+          id:1,
+          text:"Admin List",
+          path:"/dashboard/admin-list",
+        },
+        {
+          id:1,
+          text:"Add New Admin",
+          path:"/dashboard/asdasd"
+        },
+      ]
+    },
   ];
   const location = useLocation();
   useEffect(() => {
