@@ -8,6 +8,7 @@ import VerticalScroll from "./VerticalScroll";
 import Word1 from "./Word1";
 import Word2 from "./Word2";
 import Word3 from "./Word3";
+import Testimonial from "./Testimonial";
 
 const Home = () => {
   return (
@@ -20,7 +21,7 @@ const Home = () => {
       <div className=" h-[100vh]">
         <Word3 />
       </div>
-
+      <Testimonial />
       {/* <ScrollY /> */}
     </div>
   );
