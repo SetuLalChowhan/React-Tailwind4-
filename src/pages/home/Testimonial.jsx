@@ -58,7 +58,7 @@ const Testimonial = () => {
       </div>
 
       {/* Scrollable right side */}
-      <div className="w-full lg:w-1/2 flex flex-col items-center justify-center  py-32 px-4 sm:px-8 lg:px-12">
+      <div className="w-full lg:w-1/2 flex flex-col items-center justify-center  h-auto py-32 px-4 sm:px-8 lg:px-12">
         {testimonials.map((testimonial) => (
           <motion.div
             key={testimonial.id}
